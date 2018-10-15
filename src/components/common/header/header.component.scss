@@ -1,0 +1,20 @@
+.header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logoContainer{
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        max-height: 40px;
+    }
+
+    &__motto {
+        margin: 9px 0 0 10px;
+        font-size: 18px;
+    }
+}
