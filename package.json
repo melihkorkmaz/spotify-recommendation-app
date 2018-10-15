@@ -1,0 +1,39 @@
+{
+  "name": "spotify-recommendation-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html --port 8080",
+    "build": "parcel build src/index.html",
+    "lint": "eslint ./src --fix",
+    "test": "npm run lint && jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.2.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "jest-css-modules-transform": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.7"
+  },
+  "license": "MIT"
+}

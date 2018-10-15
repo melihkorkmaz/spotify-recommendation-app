@@ -1,0 +1,29 @@
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: $bg_color;
+  color: #FFF;
+  font-family: $font_family;
+}
+
+.btn {
+  font-size: 12px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 11px 32px 9px;
+    font-weight: 600;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.ellipsis-one-line{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
