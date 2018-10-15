@@ -1,0 +1,9 @@
+const SET_LOGIN_ERROR = 'USER/LOGIN_ERROR';
+const SET_PROFILE = 'USER/SET_PROFILE';
+const LOGOUT_USER = 'USER/LOGOUT';
+
+export default {
+    SET_LOGIN_ERROR,
+    SET_PROFILE,
+    LOGOUT_USER
+};
