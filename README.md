@@ -1,5 +1,7 @@
 # Spotify Recommendation App
 
+Live demo: https://maxwell-60e15.firebaseapp.com/
+
 To start please replace the client-id with your spotify client id in .env file.
 ```
     SPOTIFY_CLIENT_ID= client-id
